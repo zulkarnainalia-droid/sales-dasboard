@@ -8,4 +8,4 @@ app.get("/api/users", (req, res) => {
   ]);
 
 // WAJIB!
-module.exports = app;
+export default app;
