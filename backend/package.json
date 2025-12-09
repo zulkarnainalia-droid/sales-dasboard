@@ -1,11 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-    "scripts": {
+  "main": "server.js",
+  "scripts": {
     "start": "node server.js",
-    "vercel-build": "echo 'Build completed'"
+    "vercel-build": "echo \"Build completed\""
   },
   "dependencies": {
-    "express": "^4.18.2",
-  },
+    "express": "^4.18.2"
+  }
 }
