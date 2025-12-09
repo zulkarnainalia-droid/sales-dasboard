@@ -7,11 +7,13 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ status: "OK" });
+  res.status(200).json({ status: "OK" });
 });
 
 app.get("/api/test", (req, res) => {
-  res.json({ message: "API test berhasil" });
+  res.status(200).json({
+    message: "Endpoint API berjalan",
+  });
 });
 
 export default app;
