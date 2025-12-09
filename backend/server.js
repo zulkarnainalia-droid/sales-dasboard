@@ -7,4 +7,4 @@ app.get("/", (req, res) => {
 
 
 // WAJIB!
-export default app;
+module.exports = app;
