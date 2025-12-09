@@ -10,11 +10,11 @@ app.get("/", (req, res) => {
   res.status(200).json({ status: "OK" });
 });
 
-app.get("/api/health", (req, res) => {
-  res.json({
-    success: true,
-    message: "Backend Express ES Module berjalan",
+app.get("/api/test", (req, res) => {
+  res.status(200).json({
+    message: "Endpoint API berjalan",
   });
 });
 
 export default app;
+
