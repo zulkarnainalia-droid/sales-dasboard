@@ -12,9 +12,3 @@ app.get("/test", (req, res) => {
 });
 
 export default app;
-
-
-
-
-
-
