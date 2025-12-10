@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.status(200).json({ status: "OK" });
+  res.json({ status: "OK" });
 });
 
 app.get("/api/test", (req, res) => {
@@ -15,5 +15,6 @@ app.get("/api/test", (req, res) => {
 });
 
 export default app;
+
 
 
