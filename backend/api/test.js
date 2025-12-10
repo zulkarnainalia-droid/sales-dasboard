@@ -1,3 +1,5 @@
 export default function handler(req, res) {
-  res.json({ message: "test OK" });
+  res.status(200).json({
+    message: "API test berhasil"
+  });
 }
