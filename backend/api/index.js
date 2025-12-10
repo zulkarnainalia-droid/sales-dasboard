@@ -11,10 +11,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/test", (req, res) => {
-  res.status(200).json({
-    message: "Endpoint API berjalan",
-  });
+  res.json({ message: "API test berhasil" });
 });
 
 export default app;
+
 
