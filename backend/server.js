@@ -8,7 +8,7 @@ app.use(cors({
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Backend OK" });module.exports = (req, res) => {
+  res.json({ message: "Status OK" });module.exports = (req, res) => {
   res.status(200).json({
     kpi: {
       revenue: 120000000,
